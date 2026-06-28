@@ -1,0 +1,13 @@
+name: PlayerMonitor
+version: 1.0.0
+main: com.wddd.www.MyPlugin
+api-version: 1.21
+folia-supported: true
+description: 玩家数据监控插件 - 直接从 dat 文件读取
+permissions:
+  playermonitor.reload:
+    description: 允许重载配置
+    default: op
+  playermonitor.scan:
+    description: 允许扫描玩家数据
+    default: op

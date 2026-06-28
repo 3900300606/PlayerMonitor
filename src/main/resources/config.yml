@@ -1,0 +1,9 @@
+# PlayerMonitor 配置文件
+
+# Web 服务器端口
+web:
+  port: 8080
+
+# Vault 经济插件设置（默认关闭）
+vault:
+  enabled: false
